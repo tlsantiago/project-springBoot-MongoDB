@@ -1,12 +1,12 @@
-package com.santiago.workshopMongo.services;
+package com.santiago.workshopmongo.services;
 
 import java.util.List;
 
+import com.santiago.workshopmongo.domain.User;
+import com.santiago.workshopmongo.repository.UserRepository;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
-import com.santiago.workshopMongo.domain.User;
-import com.santiago.workshopMongo.repository.UserRepository;
 
 @Service
 public class UserService {
